@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.AiContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 115, 207, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.Heading {
+  color: #0073cf;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.Response {
+  background-color: #f0f7ff;
+  border: 1px solid #cce5ff;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 100%;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.Response div {
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.Response strong {
+  color: #0073cf;
+}
+
+.InputBox {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #0073cf;
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: none;
+  margin-bottom: 1rem;
+  font-family: inherit;
+  outline-color: #0073cf;
+}
+
+.Button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0073cf;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.Button:hover {
+  background-color: #005fa3;
+}
